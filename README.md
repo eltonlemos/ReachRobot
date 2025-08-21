@@ -15,20 +15,6 @@ This project demonstrates how to **assemble a UR10 robotic arm with a gripper**,
 
 ---
 
-## 📂 Repository Structure
-
-```
-.
-├── ur_gripper.py           # Robot configuration (UR10 + gripper articulation)
-├── reach_env_cfg.py        # Environment configuration (Reach task setup)
-├── rewards.py              # Custom reward functions for RL training
-├── skrl_ppo_cfg.yaml       # PPO algorithm configuration for skrl
-├── __init__.py             # Gym environment registration
-└── README.md               # Project documentation
-```
-
----
-
 ## 🧰 Prerequisites
 
 - **IsaacSim** and **IsaacLab** installed and working on your machine.
